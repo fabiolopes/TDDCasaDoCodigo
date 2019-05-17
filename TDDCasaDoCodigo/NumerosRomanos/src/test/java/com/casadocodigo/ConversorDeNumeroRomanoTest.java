@@ -35,7 +35,7 @@ public class ConversorDeNumeroRomanoTest {
 		ConversorDeNumeroRomano romano = new ConversorDeNumeroRomano();
 		int numero = romano.converte("XXII");
 		System.out.println("deveEntenderQuatroSimbolosDoisADoisComoXXII:" + numero);
-		assertEquals(2, numero);
+		assertEquals(24, numero);
 	}
 	
 	@Test
@@ -45,5 +45,13 @@ public class ConversorDeNumeroRomanoTest {
 		System.out.println("deveEntenderSimbolosComoIX:" + numero);
 		assertEquals(9, numero);
 	} 	
+	
+	@Test
+	public void deveEntenderNumerosComplexosComoXXIV(){
+		ConversorDeNumeroRomano romano = new ConversorDeNumeroRomano();
+		int numero = romano.converte("XXIV");
+		System.out.println("deveEntenderQuatroSimbolosDoisADoisComoXXII:" + numero);
+		assertEquals(24, numero);
+	}
 	
 }

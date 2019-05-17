@@ -32,5 +32,6 @@
 
 	<modules>
 		<module>NumerosRomanos</module>
+		<module>CalculoSalario</module>
 	</modules>
 </project>
